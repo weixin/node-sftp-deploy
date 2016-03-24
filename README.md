@@ -1,6 +1,5 @@
-## sftp2 [![NPM Version](http://img.shields.io/npm/v/sftp2.svg?style=flat)](https://www.npmjs.com/package/sftp2 'Package version')
+## sftp2 [![NPM Version](http://img.shields.io/npm/v/sftp2.svg?style=flat)](https://www.npmjs.com/package/sftp2 "Package version")
 
-(https://ci.appveyor.com/project/weixin/sftp2"devDependencies")
 [![NPM Downloads](https://img.shields.io/npm/dm/sftp2.svg?style=flat)](https://www.npmjs.com/package/sftp2"NPM Downloads")
 
 [![Join the chat at https://gitter.im/weixin/sftp2](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/TmT?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
