@@ -1,0 +1,45 @@
+{
+  "name": "sftp2",
+  "version": "1.0.0",
+  "description": "Upload and deploy files from SFTP within username & password",
+  "main": "index.js",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/weixin/sftp2"
+  },
+  "homepage": "https://github.com/weixin/sftp2",
+  "bugs": {
+    "url": "https://github.com/weixin/sftp2/issues"
+  },
+  "author": {
+    "name": "Littledu",
+    "email": "410491325@qq.com",
+    "url": "https://github.com/littledu"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "keywords": [
+    "sftp",
+    "file",
+    "files",
+    "transfer",
+    "protocol",
+    "server",
+    "client",
+    "upload",
+    "deploy",
+    "deployment"
+  ],
+  "dependencies": {
+    "async": "^0.9.2",
+    "chalk": "^1.1.1",
+    "fs-extra": "^0.26.7",
+    "object-assign": "~0.3.1",
+    "parents": "~1.0.0",
+    "q": "^1.4.1",
+    "ssh2": "0.4.13"
+  },
+  "readmeFilename": "README.md"
+}
