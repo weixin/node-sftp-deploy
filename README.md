@@ -1,4 +1,4 @@
-## sftp2 [![NPM Version](http://img.shields.io/npm/v/sftp2.svg?style=flat)](https://www.npmjs.com/package/node-sftp-deploy "Package version")
+## node-sftp-deploy [![NPM Version](http://img.shields.io/npm/v/sftp2.svg?style=flat)](https://www.npmjs.com/package/node-sftp-deploy "Package version")
 
 [![NPM Downloads](https://img.shields.io/npm/dm/sftp2.svg?style=flat)](https://www.npmjs.com/package/node-sftp-deploy "NPM Downloads")
 [![dependencies](https://img.shields.io/david/weixin/node-sftp-deploy.svg)](https://ci.appveyor.com/project/weixin/node-sftp-deploy "Dependencies")
