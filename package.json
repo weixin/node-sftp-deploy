@@ -1,6 +1,6 @@
 {
   "name": "node-sftp-deploy",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Upload and deploy files from SFTP within username & password",
   "main": "index.js",
   "license": "MIT",
