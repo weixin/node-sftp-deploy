@@ -1,16 +1,16 @@
 {
-  "name": "sftp2",
-  "version": "1.0.0",
+  "name": "node-sftp-deploy",
+  "version": "1.0.1",
   "description": "Upload and deploy files from SFTP within username & password",
   "main": "index.js",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/weixin/sftp2"
+    "url": "https://github.com/weixin/node-sftp-deploy"
   },
-  "homepage": "https://github.com/weixin/sftp2",
+  "homepage": "https://github.com/weixin/node-sftp-deploy",
   "bugs": {
-    "url": "https://github.com/weixin/sftp2/issues"
+    "url": "https://github.com/weixin/node-sftp-deploy/issues"
   },
   "author": {
     "name": "Littledu",

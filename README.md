@@ -1,8 +1,8 @@
-## sftp2 [![NPM Version](http://img.shields.io/npm/v/sftp2.svg?style=flat)](https://www.npmjs.com/package/sftp2 "Package version")
+## sftp2 [![NPM Version](http://img.shields.io/npm/v/sftp2.svg?style=flat)](https://www.npmjs.com/package/node-sftp-deploy "Package version")
 
-[![NPM Downloads](https://img.shields.io/npm/dm/sftp2.svg?style=flat)](https://www.npmjs.com/package/sftp2 "NPM Downloads")
-
-[![Join the chat at https://gitter.im/weixin/sftp2](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/TmT?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![NPM Downloads](https://img.shields.io/npm/dm/sftp2.svg?style=flat)](https://www.npmjs.com/package/node-sftp-deploy "NPM Downloads")
+[![dependencies](https://img.shields.io/david/weixin/node-sftp-deploy.svg)](https://ci.appveyor.com/project/weixin/node-sftp-deploy "Dependencies")
+[![Join the chat at https://gitter.im/weixin/node-sftp-deploy](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/TmT?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 [![TmT Name](https://img.shields.io/badge/Team-TmT-brightgreen.svg?style=flat)](https://github.com/orgs/TmT/people "Tencent Moe Team")
 [![License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)](http://opensource.org/licenses/MIT "Feel free to contribute.") 
 
@@ -12,13 +12,13 @@
 
 
 ```bash
-npm install --save sftp2
+npm install --save node-sftp-deploy
 ```
 
 ## Usage
 
 ```javascript
-var sftp = require('sftp2');
+var sftp = require('node-sftp-deploy');
 sftp({
     "host": "10.10.10.10",
     "port": "20",
@@ -40,4 +40,4 @@ sftp(sftpConfig).then(function(){
 ## Contributing
 
 This repo is build and maintained by [TmT Team](https://github.com/orgs/TmT/people).
-If you get any bugs or feature requests, please open a new [Issue](https://github.com/weixin/gulp-lazyimagecss/issues) or send us [Pull Request](https://github.com/weixin/gulp-lazyimagecss/pulls), Thank you for your contributions.
+If you get any bugs or feature requests, please open a new [Issue](https://github.com/weixin/node-sftp-deploy/issues) or send us [Pull Request](https://github.com/weixin/node-sftp-deploy/pulls), Thank you for your contributions.
