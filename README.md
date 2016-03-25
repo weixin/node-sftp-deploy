@@ -1,6 +1,6 @@
 ## node-sftp-deploy [![NPM Version](http://img.shields.io/npm/v/sftp2.svg?style=flat)](https://www.npmjs.com/package/node-sftp-deploy "Package version")
 
-[![NPM Downloads](https://img.shields.io/npm/dm/sftp2.svg?style=flat)](https://www.npmjs.com/package/node-sftp-deploy "NPM Downloads")
+[![NPM Downloads](https://img.shields.io/npm/dm/node-sftp-deploy.svg?style=flat)](https://www.npmjs.com/package/node-sftp-deploy "NPM Downloads")
 [![dependencies](https://img.shields.io/david/weixin/node-sftp-deploy.svg)](https://ci.appveyor.com/project/weixin/node-sftp-deploy "Dependencies")
 [![Join the chat at https://gitter.im/weixin/node-sftp-deploy](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/TmT?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 [![TmT Name](https://img.shields.io/badge/Team-TmT-brightgreen.svg?style=flat)](https://github.com/orgs/TmT/people "Tencent Moe Team")
