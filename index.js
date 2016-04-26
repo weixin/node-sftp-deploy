@@ -68,13 +68,13 @@ module.exports = function (options, callback) {
 
             connectSftp(function (sftp) {
                 async.eachSeries(files, function (file, done) {
-                    var filepath = file.path;
+                    var filepath = file.path.replace(/\\/, '/');
 
                     var pathArr = sourcePath.replace(/\/$/, '').split('/');
 
                     var projectName = pathArr[pathArr.length - 1];
 
-                    var relativePath = filepath.split(projectName)[1];
+                    var relativePath = filepath.split(projectName + '/')[1];
                     var finalRemotePath = normalizePath(path.join(remotePath, relativePath));
 
                     var dirname = path.dirname(finalRemotePath);
