@@ -39,7 +39,7 @@ module.exports = function (options, callback) {
 
 
         var remotePath = options.remotePath;
-        var sourcePath = options.sourcePath;
+        var sourcePath = options.sourcePath.replace(/\\/g, '/');
         var remotePlatform = options.remotePlatform;
 
         var mkDirCache = {};
@@ -68,7 +68,7 @@ module.exports = function (options, callback) {
 
             connectSftp(function (sftp) {
                 async.eachSeries(files, function (file, done) {
-                    var filepath = file.path.replace(/\\/, '/');
+                    var filepath = file.path.replace(/\\/g, '/');
 
                     var pathArr = sourcePath.replace(/\/$/, '').split('/');
 
