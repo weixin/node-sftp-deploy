@@ -217,7 +217,9 @@ module.exports = function (options, callback) {
                 username: options.username
             };
 
-            if (options.password) {
+            if (options.privateKey) {
+                connection_options.privateKey = options.privateKey;
+            } else if (options.password) {
                 connection_options.password = options.password;
             }
 
